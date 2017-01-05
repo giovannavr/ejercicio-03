@@ -1,1 +1,255 @@
-
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.seccion2{
+  width:100%;
+  position:relative;
+  background: #e4ebf3;
+  padding: 0px 27px;
+}
+.seccion2 .textos {
+  display: none;
+}
+.imagen1 {
+  width: 100%;
+}
+.imagen1 .page{
+  margin:0px;
+}
+.imagen1 img{
+  width: 100%;
+}
+.seccion2 .materiales{
+	width: 322px;
+	position: absolute;
+  bottom: -81px;
+  left: -135px;
+}
+.seccion2 .materiales .plumon{
+  margin: 0px;
+}
+.seccion2 .materiales img{
+	width: 100%;
+}
+.subtitulo{
+  padding: 21px 0px;
+}
+.subtitulo h2{
+  font-size: 19px;
+	line-height: 35px;
+  white-space: nowrap;
+  text-align: center;
+  padding-bottom: 6px;
+}
+.subtitulo p{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.ultimo .boton3 a{
+  text-decoration: none;
+}
+.boton3 {
+  padding-bottom: 60px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+}
+.boton3 span{
+  color: white;
+}
+.boton3 a:hover{
+  background: #3598db;
+}
+.ultimo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+}
+.ultimo p{
+  padding-top: 19px;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 14px;
+}
+.ultimo a{
+	border-radius: 50px;
+	color: white;
+	text-decoration: none;
+  display: flex;
+  border: 1px solid white;
+  padding: 12px 14px 12px 21px;
+  font-size: 18px;
+  left: 87px;
+  bottom: -67px;
+}
+.ultimo a:hover{
+  background: #3498db;
+  }
+.ultimo span{
+  font-size: 16px;
+	line-height: 18px;
+	text-align: center;
+  color: white;
+  white-space: nowrap;
+}
+.ultimo a img{
+  height: 20px;
+  align-self: center;
+}
+.seccion2 .circulos .funcion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccion2 .circulos .funcion:hover .radio{
+  background: #3c95d7;
+}
+.seccion2 .circulos .funcion:hover .rayita{
+  background: #3c95d7;
+}
+.seccion2 .circulos{
+  display: flex;
+	justify-content: center;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 29px;
+}
+.seccion2 .circulos .radio{
+  width: 7px;
+  height: 7px;
+  border-radius: 25px;
+  background: #c0c9d2;
+  margin: 0px 2px;
+}
+.seccion2 .circulos .funcion .rayita{
+  width: 1px;
+  height: 16px;
+}
+@media screen and (min-width: 480px){
+.seccion2 .subtitulo h2{
+   font-size: 27px;
+  }
+.seccion2 .subtitulo p{
+  font-size: 23px;
+}
+.ultimo p{
+  font-size: 24px;
+}
+.seccion2 .circulos .radio {
+  width: 12px;
+  height: 12px;
+  margin: 0px 4px;
+  }
+.ultimo span {
+  font-size: 24px;
+  line-height: 31px;
+ }
+ .seccion2 .materiales{
+  width: 365px;
+  bottom: -95px;
+  left: -152px;
+  }
+}
+@media screen and (min-width: 768px){
+  .seccion2{
+    padding-bottom: 50px;
+  }
+  .seccion2 .subtitulo{
+    display: none;
+  }
+  .seccion2 .textos{
+    display: block;
+  }
+  .seccion2 .textos a{
+    text-decoration: none;
+   color: #354b60;
+   white-space: nowrap;
+  }
+  .seccion2 .textos ul li{
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  .seccion2 .contendio2{
+    display: flex;
+    padding-top: 50px;
+  }
+  .seccion2 .ultimo p{
+    display: none;
+  }
+  .seccion2 .ultimo .circulos{
+    display: none;
+  }
+  .seccion2 .contendio2 .descripcion{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  }
+  .ultimo{
+   flex-direction: row;
+   justify-content: flex-start;
+   padding-top: 20px;
+  }
+  .boton3{
+    padding-bottom: 0px;
+  }
+  .imagen1{
+    padding-right: 35px;
+  }
+  .textoprincipal{
+   padding-bottom: 25px;
+  }
+  .textoprincipal h2{
+    font-size: 25px;
+    padding-bottom: 9px;
+  }
+  .textoprincipal p{
+    white-space: nowrap;
+   font-size: 15px;
+  }
+  .ultimo a{
+    padding: 4px 14px 8px 21px;
+  }
+  .textos ul li:hover a{
+    color: #000000;
+  }
+}
+@media screen and (min-width: 1024px){
+  .seccion2{
+    width: 100%;
+    height: 100%;
+  }
+  .seccion2 .contendio2{
+    width: 100%;
+    height: 100%;
+  }
+  .seccion2 .contendio2 .imagen1{
+    width: 100%;
+    height: 100%;
+  }
+  .seccion2 .contendio2 .imagen1 .page{
+    width: 100%;
+    height: 100%;
+  }
+  .seccion2 .contendio2 .imagen1 .page img{
+    width: 100%;
+    height: 100%;
+  }
+  .seccion2 .contendio2 .descripcion{
+    width: 100%;
+    height: 100%;
+  }
+  .textoprincipal h2{
+    padding-bottom: 14px;
+    font-size: 30px;
+  }
+  .textoprincipal p{
+ font-size: 20px;
+  }
+  .seccion2 .textos ul li{
+    font-size: 20px;
+  }
+}
