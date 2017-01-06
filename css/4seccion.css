@@ -1,0 +1,144 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.seccion4{
+  width:100%;
+  position: relative;
+  padding: 0px 30px;
+  background: #e4ebf3;
+  overflow: hidden;
+}
+.seccion4 .Titulo{
+   text-align: center;
+   padding-top: 50px;
+  padding-bottom: 35px;
+}
+.seccion4 .Titulo h4{
+  padding-bottom: 14px;
+  font-size: 18px;
+}
+.seccion4 .Titulo p{
+  font-size: 14px;
+}
+.contenido4 .textos4{
+  text-align: center;
+}
+.contenido4 .textos4 h4{
+  line-height: 30px;
+}
+.contenido4 .textos4 h4:hover{
+  background:#f4f8fb;
+}
+.contenido4 .textos4 p{
+  line-height: 30px;
+  color:#676161;
+}
+.contenido4 .textos4 p:hover{
+  background: #f4f8fb;
+}
+.seccion4 .final4 h4{
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.seccion4 .final4 span{
+  line-height: 25px;
+}
+.botonBecome {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.botonBecome a{
+  text-decoration: none;
+  border-radius: 25px;
+  border: 1px solid transparent;
+  padding: 10px 15px;
+  background:#fbc632;
+}
+.botonBecome span{
+  color: white;
+}
+.botonBecome a:hover{
+  background:#fbc632;
+}
+.seccion4 .book{
+  width: 120px;
+  position: absolute;
+  bottom: -3px;
+  right: -20px;
+  transform: rotate(-13deg);
+}
+.seccion4 .book img{
+	width: 100%;
+}
+@media screen and (min-width: 480px){
+  .seccion4 .Titulo h4{
+    font-size: 25px;
+  }
+  .seccion4 .Titulo p{
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 768px){
+  .seccion4 .Titulo{
+    text-align: left;
+  }
+  .seccion4 .Titulo h4{
+    font-size: 20px;
+  }
+  .seccion4 .contenido4{
+    display: flex;
+    justify-content: center;
+  }
+  .contenido4 .textos4{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  .contenido4 .textos4 .primer_4{
+    padding-right: 87px;
+    font-size: 16px;
+  }
+  .contenido4 .textos4 h4{
+    font-size: 15px;
+  }
+  .contenido4 .textos4 p{
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .seccion4 .book{
+    width: 170px;
+    right: 25px;
+  }
+  .seccion4 .textos4 p:hover{
+    color: #000000;
+  }
+  .contenido4 .textos4 p:hover{
+    background: transparent;
+  }
+  .contenido4 .textos4 h4:hover{
+    background:transparent;
+  }
+  ..contendio4 .textos4 .primer_4 .linea{
+    width:16px;
+    height:1px;
+  }
+  .contendio4 .textos4 .primer_4:hover .h4{
+    background: #3c95d7;
+  }
+  .contendio4 .textos4 .primer_4:hover .linea{
+    background: #3c95d7;
+  }
+}
+@media screen and (min-width: 1024px){
+  .seccion4 .Titulo h4 {
+    font-size: 25px;
+  }
+  .contenido4 .textos4 .primer_4 {
+    padding-right: 190px;
+  }
+}

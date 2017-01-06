@@ -1,0 +1,61 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.seccion5{
+  width:100%;
+  position: relative;
+  padding: 0px 25px;
+}
+.seccion5 .Titulo_5{
+   text-align: center;
+   padding-top: 50px;
+  padding-bottom: 35px;
+}
+.seccion5 .Titulo_5 h5{
+  padding-bottom: 14px;
+  font-size: 18px;
+}
+.seccion5 .Titulo_5 p{
+  font-size: 15px;
+}
+.seccion5 .logos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.seccion5 .logos figure img{
+  width: 100px;
+}
+.video{
+  position: relative;
+  margin-bottom: 20px;
+  padding-top: 56.25%;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.boton_Read {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.boton_Read a{
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.boton_Read span{
+  color: #60727e;
+  padding-right: 10px;
+}
+.boton_Read a img{
+  height: 13px;
+}

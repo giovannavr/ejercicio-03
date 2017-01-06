@@ -88,12 +88,12 @@ body{
   margin: 0px 0px 28px 0px;
 }
 .portada .centro h1{
-  font-size: 24px;
+  font-size: 22px;
 	line-height: 32px;
   margin: 0px 0px 21px 0px;
 }
 .portada .centro p{
-  font-size: 19px;
+  font-size: 17px;
 	line-height: 20px;
 	color: rgba(255, 255, 255, 0.8);
 	margin-bottom: 50px;
@@ -106,14 +106,13 @@ body{
 .acciones a{
   display: flex;
   align-self: center;
-	font-size: 14px;
+	font-size: 16px;
 	border-radius: 50px;
 	color: white;
 	text-decoration: none;
   align-items: center;
   border: 1px solid white;
   padding: 10px 25px 10px 25px;
-  font-size: 18px;
 }
 .acciones a:first-child{
   margin: 0px 0px 15px 0px;

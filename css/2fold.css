@@ -8,6 +8,7 @@
   position:relative;
   background: #e4ebf3;
   padding: 0px 27px;
+  overflow: hidden;
 }
 .seccion2 .textos {
   display: none;
@@ -37,7 +38,7 @@
   padding: 21px 0px;
 }
 .subtitulo h2{
-  font-size: 19px;
+  font-size: 15px;
 	line-height: 35px;
   white-space: nowrap;
   text-align: center;
@@ -47,6 +48,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  font-size: 13px;
 }
 .ultimo .boton3 a{
   text-decoration: none;
@@ -73,7 +75,7 @@
   padding-top: 19px;
   white-space: nowrap;
   text-align: center;
-  font-size: 14px;
+  font-size: 11px;
 }
 .ultimo a{
 	border-radius: 50px;
@@ -88,6 +90,7 @@
 }
 .ultimo a:hover{
   background: #3498db;
+  border: 1px solid transparent;
   }
 .ultimo span{
   font-size: 16px;
