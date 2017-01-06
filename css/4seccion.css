@@ -13,7 +13,7 @@
 .seccion4 .Titulo{
    text-align: center;
    padding-top: 50px;
-  padding-bottom: 35px;
+   padding-bottom: 35px;
 }
 .seccion4 .Titulo h4{
   padding-bottom: 14px;
@@ -22,21 +22,35 @@
 .seccion4 .Titulo p{
   font-size: 14px;
 }
-.contenido4 .textos4{
-  text-align: center;
-}
+/*.contenido4 .textos4{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}*/
 .contenido4 .textos4 h4{
   line-height: 30px;
-}
-.contenido4 .textos4 h4:hover{
+  text-align: center;
   background:#f4f8fb;
+}
+.contenido4 .textos4 .linea{
+  width: 50px;
+  height: 1px;
+  margin: auto;
+}
+.contenido4 .textos4 :hover h4{
+  background:transparent;
+}
+
+.contenido4 .textos4 :hover .linea{
+  background: #3c95d7;
 }
 .contenido4 .textos4 p{
   line-height: 30px;
   color:#676161;
+  text-align: center;
 }
 .contenido4 .textos4 p:hover{
-  background: #f4f8fb;
+  color: #000;
 }
 .seccion4 .final4 h4{
   font-size: 15px;
@@ -75,6 +89,9 @@
 .seccion4 .book img{
 	width: 100%;
 }
+.seccion4 .final4{
+  width: 80%;
+}
 @media screen and (min-width: 480px){
   .seccion4 .Titulo h4{
     font-size: 25px;
@@ -105,40 +122,35 @@
   }
   .contenido4 .textos4 h4{
     font-size: 15px;
+    background: transparent;
+    text-align: inherit;
   }
   .contenido4 .textos4 p{
     line-height: 40px;
     font-size: 14px;
+    text-align: inherit;
   }
   .seccion4 .book{
     width: 170px;
     right: 25px;
   }
-  .seccion4 .textos4 p:hover{
-    color: #000000;
-  }
-  .contenido4 .textos4 p:hover{
-    background: transparent;
-  }
   .contenido4 .textos4 h4:hover{
     background:transparent;
   }
-  ..contendio4 .textos4 .primer_4 .linea{
-    width:16px;
-    height:1px;
+  .contenido4 .textos4 .linea{
+    margin: inherit;
   }
-  .contendio4 .textos4 .primer_4:hover .h4{
-    background: #3c95d7;
-  }
-  .contendio4 .textos4 .primer_4:hover .linea{
-    background: #3c95d7;
-  }
+
 }
 @media screen and (min-width: 1024px){
   .seccion4 .Titulo h4 {
     font-size: 25px;
   }
   .contenido4 .textos4 .primer_4 {
-    padding-right: 190px;
+      padding-right: 172px;
+      padding-bottom: 5px;
+  }
+  .seccion4 .final4 h4{
+    font-size: 25px;
   }
 }
