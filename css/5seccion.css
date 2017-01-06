@@ -29,13 +29,51 @@
 .seccion5 .logos figure img{
   width: 100px;
 }
-/*.video{
+.video{
   width: 100%;
   height: auto;
 }
-.video iframe {
-
-}*/
+.video iframe{
+  width: 100%;
+}
+.contenedor_video{
+  border: 1px solid #e3e6ea;
+}
+.seccion5 .contenedor_video .descripcion_5{
+  padding: 15px 15px;
+}
+.seccion5 .contenedor_video .descripcion_derecha{
+  display: none;
+}
+.seccion5 .contenedor_video .descripcion_5 p{
+  font-size: 12px;
+  text-align: justify;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+.comentario{
+  display: flex;
+  justify-content: flex-start;
+}
+.comentario img{
+  width: 30px;
+  height: 30px;
+}
+.comentario .comentario_2{
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+}
+.comentario p{
+  font-size: 10px;
+}
+.comentario .comentario_2 h5{
+  padding-bottom: 5px;
+}
+.comentario .comentario_2 span{
+  font-size: 8px;
+  color: #8b8787;
+}
 .boton_Read {
   display: flex;
   justify-content: center;
@@ -53,4 +91,63 @@
 }
 .boton_Read a img{
   height: 13px;
+}
+@media screen and (min-width: 480px){
+ .contenedor_video{
+    display: flex;
+    flex-direction: row;
+ }
+}
+@media screen and (min-width: 768px){
+  .seccion5 .contenedor_video .descripcion_derecha{
+    display: block;
+  }
+  .contenedor_video{
+    border: 0px;
+  }
+  .seccion5 .contenedor_video .descripcion_5 {
+    padding: 15px 15px;
+    margin-right: 15px;
+    border:1px solid #e5e8e9
+ }
+  .seccion5 .contenedor_video .descripcion_derecha{
+    padding: 15px 15px;
+    border:1px solid #e5e8e9
+  }
+  .seccion5 .contenedor_video .descripcion_derecha p{
+    font-size: 10px;
+    text-align: justify;
+    line-height: 20px;
+    padding-bottom: 20px;
+  }
+  .comentario_derecha{
+    display: flex;
+    justify-content: flex-start;
+  }
+  .comentario_derecha img{
+    width: 30px;
+    height: 30px;
+  }
+  .comentario_derecha .comentario_2derecha{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+  }
+  .comentario_derecha  p{
+    font-size: 10px;
+  }
+  .comentario_derecha .comentario_2derecha span{
+    font-size: 8px;
+    color:#8b8787;
+  }
+  .comentario_2 h5{
+    font-size: 11px;
+  }
+  .comentario_2derecha h5{
+   font-size: 11px;
+  }
+  .comentario_derecha .comentario_2derecha h5{
+    padding-bottom: 5px;
+  }
+
 }
