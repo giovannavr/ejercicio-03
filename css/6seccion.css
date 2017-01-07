@@ -86,10 +86,9 @@
 .seccion6 .cuarto_6 .conjunto{
   padding-top: 15px;
   display: flex;
-  flex-wrap: wrap;
 }
 .seccion6 .cuarto_6 .conjunto .imagen_6{
-  padding-right: 15px;
+  padding-right: 25px;
 }
 .seccion6 .cuarto_6 .conjunto .direccion{
    display: flex;
@@ -114,15 +113,11 @@
 .seccion6 .cuarto_6 .iconos_final figure{
   padding-right: 10px;
 }
-.seccion6 .cuarto_6 .iconos_final img{
-  width: 30px;
-}
 .seccion6 .cuarto_6 .Terminos span{
   white-space: nowrap;
   color:#57767e;
   font-size: 10px;
 }
-
 @media screen and (min-width: 480px){
    .seccion6 .primer_6 .column{
     line-height: 35px;
@@ -156,9 +151,6 @@
      font-size: 16px;
      line-height: 30px;
    }
-   .seccion6 .cuarto_6 img {
-      padding-top: 20px;
-  }
   .seccion6 .cuarto_6 .direccion span{
     font-size: 15px;
     line-height: 30px;
@@ -167,8 +159,8 @@
       font-size: 15px;
       line-height: 25px;
   }
-  .seccion6 .cuarto_6 .iconos_final img {
-      width: 41px;
+  .seccion6 .cuarto_6 .conjunto .imagen_6 {
+    padding-right: 70px;
   }
 }
 @media screen and (min-width: 768px){
@@ -179,6 +171,7 @@
   }
   .seccion6 .primera_entrada .separacion{
     transform: rotate(90deg);
+    /*display: none;*/
   }
   .seccion6 .segundo_6 {
     padding: 0px 0px;
@@ -220,9 +213,6 @@
   .seccion6 .segundo_6 {
     padding-right: 45px;
   }
-  .seccion6 .cuarto_6 .conjunto {
-    padding-top: 25px;
-  }
   .seccion6 .cuarto_6 .conjunto .direccion {
     display: flex;
     flex-direction: row;
@@ -241,7 +231,12 @@
   .seccion6 .cuarto_6 .iconos_final img {
     width: 32px;
   }
-
+  .seccion6 .cuarto_6 .conjunto .imagen_6 {
+    padding-right:20px;
+  }
+  .seccion6 .cuarto_6 .conjunto .izquierda{
+    display: flex;
+  }
 }
 @media screen and (min-width: 1024px){
 
