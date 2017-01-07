@@ -185,7 +185,6 @@
   }
   .seccion6 .primer_6 h5{
    font-size: 15px;
-   padding-bottom: 20px;
   }
   .seccion6 .primer_6 p{
     font-size: 10px;
@@ -196,7 +195,6 @@
   }
   .seccion6 .segundo_6 h5 {
     font-size: 15px;
-    padding-bottom: 20px;
   }
   .seccion6 .segundo_6 span{
     font-size: 10px;
@@ -239,11 +237,6 @@
   }
   .seccion6 .cuarto_6 .Terminos span {
     font-size: 10px;
-  }
-  .seccion6 .cuarto_6 .conjunto {
-    display: flex;
-   flex-direction: row;
-   justify-content: space-between;
   }
   .seccion6 .cuarto_6 .iconos_final img {
     width: 32px;
