@@ -1,8 +1,3 @@
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
 .seccion5{
   width:100%;
   position: relative;
@@ -35,6 +30,7 @@
 }
 .video iframe{
   width: 100%;
+  height: 100%;
 }
 .contenedor_video{
   border: 1px solid #e3e6ea;
@@ -107,17 +103,20 @@
   }
   .seccion5 .contenedor_video .descripcion_5 {
     padding: 15px 15px;
-    margin-right: 15px;
+    margin-right: 22px;
     border:1px solid #e5e8e9
  }
   .seccion5 .contenedor_video .descripcion_derecha{
     padding: 15px 15px;
     border:1px solid #e5e8e9
+   }
+  .seccion5 .contenedor_video .descripcion_derecha p{
+    line-height: 22px;
   }
   .seccion5 .contenedor_video .descripcion_derecha p{
-    font-size: 10px;
+    font-size: 12px;
     text-align: justify;
-    line-height: 20px;
+    line-height: 22px;
     padding-bottom: 20px;
   }
   .comentario_derecha{
@@ -149,5 +148,65 @@
   .comentario_derecha .comentario_2derecha h5{
     padding-bottom: 5px;
   }
-
+  .seccion5 .logos{
+    padding: 25px 0px;
+  }
+}
+@media screen and (min-width: 1024px){
+  .seccion5{
+    padding: 0px 50px;
+  }
+  .seccion5 .logos {
+    padding: 30px 0px;
+  }
+  .seccion5 .Titulo_5 h5 {
+    font-size: 25px;
+  }
+  .seccion5 .Titulo_5 p {
+    font-size: 20px;
+  }
+  .seccion5 .logos figure img {
+    width: 196px;
+  }
+  .seccion5 .contenedor_video .descripcion_5 p {
+   font-size: 16px;
+   line-height: 26px;
+  }
+  .seccion5 .contenedor_video .descripcion_derecha p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .comentario img {
+    width: 35px;
+    height: 35px;
+  }
+  .comentario_derecha img {
+    width: 35px;
+    height: 35px;
+  }
+  .comentario_2 h5 {
+    font-size: 15px;
+  }
+  .comentario .comentario_2 span {
+    font-size: 12px;
+  }
+  .comentario_2derecha h5 {
+    font-size: 15px;
+  }
+  .comentario_derecha .comentario_2derecha span {
+    font-size:12px;
+  }
+  .seccion5 .contenedor_video .descripcion_5 {
+    margin-right: 44px;
+  }
+ .boton_Read{
+   padding-top: 45px;
+   padding-bottom: 60px;
+ }
+ .boton_Read a{
+   font-size: 20px;
+ }
+ .seccion5 .contenedor_video .descripcion_5{
+   padding: 20px 20px;
+ }
 }

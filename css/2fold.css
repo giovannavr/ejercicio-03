@@ -1,7 +1,6 @@
 *{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 .seccion2{
   width:100%;
@@ -139,7 +138,7 @@
   font-size: 23px;
 }
 .ultimo p{
-  font-size: 24px;
+  font-size: 20px;
 }
 .seccion2 .circulos .radio {
   width: 12px;

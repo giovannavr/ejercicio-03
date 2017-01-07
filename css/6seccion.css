@@ -84,8 +84,12 @@
   padding-top: 15px;
 }
 .seccion6 .cuarto_6 .conjunto{
-  float: right;
   padding-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.seccion6 .cuarto_6 .conjunto .imagen_6{
+  padding-right: 15px;
 }
 .seccion6 .cuarto_6 .conjunto .direccion{
    display: flex;
@@ -128,7 +132,7 @@
     padding-bottom: 20px;
    }
    .seccion6 .primer_6 p{
-     font-size: 20px;
+     font-size: 16px;
    }
    .seccion6 .segundo_6 h5 {
      font-size: 20px;
@@ -143,19 +147,20 @@
    }
    .seccion6 .segundo_6 img {
       width: 25px;
+      height: 25px;
    }
    .seccion6 .tercer_6 h5 {
      font-size: 20px;
    }
    .seccion6 .tercer_6 p {
-     font-size: 19px;
+     font-size: 16px;
      line-height: 30px;
    }
    .seccion6 .cuarto_6 img {
       padding-top: 20px;
   }
   .seccion6 .cuarto_6 .direccion span{
-    font-size: 20px;
+    font-size: 15px;
     line-height: 30px;
   }
   .seccion6 .cuarto_6 .Terminos span {
@@ -170,10 +175,13 @@
   .seccion6 .primera_entrada{
     display: flex;
     flex-direction: row;
-    padding-top: 35px;
+    padding-top: 10px;
   }
   .seccion6 .primera_entrada .separacion{
-        transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  .seccion6 .segundo_6 {
+    padding: 0px 0px;
   }
   .seccion6 .primer_6 h5{
    font-size: 15px;
@@ -181,6 +189,7 @@
   }
   .seccion6 .primer_6 p{
     font-size: 10px;
+    white-space: nowrap;
   }
   .seccion6 .primer_6 .column{
     line-height: 26px;
@@ -197,13 +206,50 @@
     font-size: 15px;
   }
   .seccion6 .tercer_6 p {
-    font-size: 10px;
-    line-height: 25px;
+    font-size: 11px;
+    line-height: 22px;
   }
   .seccion6 .segundo_6 img {
     width: 10px;
     height: 15px;
   }
+  .seccion6 .primer_6 {
+    padding-right: 45px;
+  }
+  .column .column_1{
+    padding-right: 60px;
+  }
+  .seccion6 .segundo_6 {
+    padding-right: 45px;
+  }
+  .seccion6 .cuarto_6 .conjunto {
+    padding-top: 25px;
+  }
+  .seccion6 .cuarto_6 .conjunto .direccion {
+    display: flex;
+    flex-direction: row;
+    padding-bottom:0px;
+  }
+  .seccion6 .cuarto_6 .conjunto .Terminos {
+    flex-direction: row;
+    display: flex;
+  }
+  .seccion6 .cuarto_6 .direccion span {
+    font-size: 10px;
+  }
+  .seccion6 .cuarto_6 .Terminos span {
+    font-size: 10px;
+  }
+  .seccion6 .cuarto_6 .conjunto {
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  }
+  .seccion6 .cuarto_6 .iconos_final img {
+    width: 32px;
+  }
+
 }
 @media screen and (min-width: 1024px){
+
 }
