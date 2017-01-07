@@ -250,6 +250,10 @@
   .seccion6 .cuarto_6 .conjunto .izquierda{
     display: flex;
   }
+  .seccion6 .cuarto_6 .iconos_final {
+    position: absolute;
+    right: 20px;
+  }
 }
 @media screen and (min-width: 1024px){
 
