@@ -256,5 +256,33 @@
   }
 }
 @media screen and (min-width: 1024px){
-
+  .seccion6 .primer_6 h5 {
+    font-size: 18px;
+  }
+  .seccion6 .primer_6 p {
+    font-size: 14px;
+  }
+  .seccion6 .segundo_6 h5 {
+    font-size: 18px;
+    white-space: nowrap;
+ }
+ .seccion6 .segundo_6 span {
+    font-size: 14px;
+}
+ .seccion6 .tercer_6 h5 {
+    font-size: 18px;
+ }
+ .seccion6 .tercer_6 p {
+    font-size: 13px;
+    line-height: 28px;
+ }
+ .seccion6 .cuarto_6 .direccion span {
+    font-size: 14px;
+ }
+ .seccion6 .cuarto_6 .Terminos span {
+    font-size: 15px;
+ }
+ .izquierda .ubicacion{
+   padding-left: 20px;
+ }
 }
