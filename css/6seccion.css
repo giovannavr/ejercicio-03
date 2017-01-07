@@ -169,9 +169,9 @@
     flex-direction: row;
     padding-top: 10px;
   }
-  .seccion6 .primera_entrada .separacion{
-    transform: rotate(90deg);
-    /*display: none;*/
+  .separacion{
+    width: 1px;
+    height: 72%;
   }
   .seccion6 .segundo_6 {
     padding: 0px 0px;
@@ -197,7 +197,7 @@
     font-size: 15px;
   }
   .seccion6 .tercer_6 p {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 22px;
   }
   .seccion6 .segundo_6 img {
@@ -206,12 +206,20 @@
   }
   .seccion6 .primer_6 {
     padding-right: 45px;
+    display: flex;
+  }
+  .seccion6 .primer_6 .primera_columna{
+    padding-right: 38px;
   }
   .column .column_1{
-    padding-right: 60px;
+    padding-right:45px;
   }
   .seccion6 .segundo_6 {
     padding-right: 45px;
+    display: flex;
+  }
+  .seccion6 .segundo_6 .segunda_columna{
+    padding-right: 38px;
   }
   .seccion6 .cuarto_6 .conjunto .direccion {
     display: flex;
