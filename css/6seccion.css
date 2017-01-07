@@ -173,6 +173,10 @@
     display: flex;
     flex-direction: row;
     padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  .seccion6 .cuarto_6 .conjunto {
+    padding-top: 30px;
   }
   .separacion{
     width: 1px;

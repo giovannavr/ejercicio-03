@@ -5,7 +5,7 @@
 }
 .seccion5 .Titulo_5{
    text-align: center;
-   padding-top: 50px;
+   padding-top: 60px;
   padding-bottom: 35px;
 }
 .seccion5 .Titulo_5 h5{
@@ -97,6 +97,9 @@
 @media screen and (min-width: 768px){
   .seccion5 .contenedor_video .descripcion_derecha{
     display: block;
+  }
+  .seccion5 .Titulo_5 {
+    padding-top: 100px;
   }
   .contenedor_video{
     border: 0px;
